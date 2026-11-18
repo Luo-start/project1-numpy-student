@@ -137,9 +137,13 @@ files from the course attachment and place them at the exact paths above.
 checkpoint. Substituting another OpenCLIP checkpoint is not supported because
 the dimensions and numerical references in `config.json` are fixed.
 
-## Report
+## Architecture
 
-- [Architecture diagram](report/figs/architecture.pdf)
+<p align="center">
+  <img src="report/figs/architecture.png"
+       alt="OpenCLIP ViT-B/32 image encoder architecture"
+       width="100%">
+</p>
 
 ## Repository Contents
 
