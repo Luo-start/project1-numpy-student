@@ -1,0 +1,26 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local virtual environments
+.venv/
+venv/
+
+# Course-provided large files
+weights/image_encoder.npz
+assets/reference_outputs.npz
+
+# LaTeX build artifacts
+report/**/*.aux
+report/**/*.log
+report/**/*.out
+report/**/*.toc
+report/**/*.synctex.gz
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Temporary Overleaf upload package
+project1-report-overleaf.zip
