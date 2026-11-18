@@ -26,6 +26,13 @@ Image [B,3,224,224]
   -> projection [B,512]
   -> unit normalization [B,512]
 ```
+## Architecture
+
+<p align="center">
+  <img src="report/figs/architecture.png"
+       alt="OpenCLIP ViT-B/32 image encoder architecture"
+       width="100%">
+</p>
 
 ## Implemented Components
 
@@ -136,14 +143,6 @@ files from the course attachment and place them at the exact paths above.
 `weights/image_encoder.npz` contains the fixed 152 visual tensors for this
 checkpoint. Substituting another OpenCLIP checkpoint is not supported because
 the dimensions and numerical references in `config.json` are fixed.
-
-## Architecture
-
-<p align="center">
-  <img src="report/figs/architecture.png"
-       alt="OpenCLIP ViT-B/32 image encoder architecture"
-       width="100%">
-</p>
 
 ## Repository Contents
 
